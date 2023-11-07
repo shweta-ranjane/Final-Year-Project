@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="home.css">
+
+<title>Enquiry Form</title>
+</head>
+<body>
+<ul class="breadcrumb">
+<li><a href="index.html">Home</a></li>
+<li>Enquiry Form</li>
+
+<div class="enquiry-box">
+<div class="form-container">
+<div class="heading">
+<h2 align="center">Inquire Now....</h2>
+</div>
+<div class="alert"> Your Enquiry has been sent</div>
+<form id="enquiryForm">
+<div class="input-box">
+<span class="icon"><i class="fa fa-user"></i></span>
+<input type="text" name="name" id="name" placeholder="Your Name" required>
+</div>
+
+<div class="input-box">
+<span class="icon"><i class="fa fa-envelope"></i></span>
+<input type="email" name="email" id="email" placeholder="Your Email" required>
+</div>
+
+<div class="input-box">
+<span class="icon"><i class="fa fa-address-book-o"></i></span>
+<input type="text" name="city" id="city"  placeholder="Your City" >
+</div>
+
+<div class="input-box">
+<span class="icon"><i class="fa fa-phone"></i></span>
+<input type="text" name="phone" id="phone"  placeholder="Phone No." required>
+</div>
+
+<div class="input-box">
+<span class="icon"><i class="fa fa-edit"></i></span>
+<textarea rows="7" name="message" id="message"  placeholder="Your Message"></textarea>
+</div>
+
+<div class="submit">
+<button type="submit">Send Enquiry</button>
+</div>
+
+</form>
+
+</div>
+</div>
+
+<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+<script src="enquire.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,110 @@
+
+.enquiry-box{
+	width:500px;
+	background-color:#fff;
+	box-shadow:0 0 20px 0 #999;
+	top:50%;
+	left:50%;
+	transform:translateY(-50%,-50%);
+	position:absolute;
+}
+form{
+	margin:35px;
+}
+.input-field{
+width:400px;
+height:40px;
+margin-top:20px;
+padding-left:10px;
+border:1px solid #777;
+border-radius:14px;
+outline:none;
+}
+.textarea-field{
+	height:150px;
+	padding:10px;
+}
+.button{
+color:#fff;
+border-radius:20px;
+background-color:#47c35a;
+margin-top:18px;
+padding:20px;
+font-size:20px;
+border:none;
+cursor:pointer;
+
+}	
+
+/**.{
+	margin:0;
+	padding:0;
+}
+body{
+overflow-x :hidden;
+width:100%;
+height:100vh;
+}
+.sidebar-form{
+	position:fixed;
+	top:50%;
+	right:350px;
+	width:350px;
+	box-shadow: 0 0 5px rgba(0,0,0,.3);
+	border-radius:8px 0 0 8px;
+	background-color:#fff;
+	padding:20px;
+	transform:translateY(-50%)rotate(-90deg);
+	transition:right .4s linear;
+}
+.sidebar-form{
+	right:0;
+}
+.sidebar-form {
+	position:absolute;
+	background-color: purple;
+	font-family:'roboto';
+	font-weight:400;
+	letter-spacing:1px;
+	color:#fff;
+	width:150px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	cursor:pointer;
+	left:-95px;
+	top:50%;
+	transform:translateY(-50%);
+}
+.sidebar-form h3{
+	font-family:'montserrat';
+	font-weight:700;
+	text-transform:uppercase;
+	font-size:20px;
+	margin-bottom:15px;
+	text-align:center;
+	color:red;
+}
+.sidebar-form .form-group{
+	margin-bottom:10px;
+}
+.sidebar-form .form-group label{
+	font-family:'roboto';
+	font-weight:500;
+	font-size:15px;
+	margin-bottom:20px;
+	color:#333;
+}
+.sidebar-form #submit-btn{
+	width:100%;
+	border:none;
+	margin-top:8px;
+	background-color:purple;
+	color:white;
+	padding:7px;
+	font-family:'roboto';
+	font-weight:400;
+	cursor:pointer;
+}
+	
+	

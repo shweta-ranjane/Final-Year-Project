@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Login</title>
+<style>
+body{
+background-color:#feb236;
+}
+h1{
+color:red;
+}
+div{
+
+display:block;
+position:absolute;
+width:10px;
+height:10px;
+left:calc(50% - 1em);
+border-radius:1em;
+transform-origin:1em 2em;
+animation:rotate;
+animation-iteration-count:infinite;
+animation-duration:1.6s;
+}
+@keyframes rotate{
+0%{transform:rotate(0deg);}
+100%{transform:rotate(360deg);}
+}
+.d1{
+animation-delay:0.1s;
+background-color:blue;
+}
+.d2{
+animation-delay:0.2s;
+background-color:red;
+}
+.d3{
+animation-delay:0.3s;
+background-color:yellow;
+}
+.d4{
+animation-delay:0.4s;
+background-color:green;
+}
+.d5{
+animation-delay:0.5s;
+background-color:megenta;
+}
+</style>
+</head>
+<body bgcolor="#f1f1f1">
+<center>
+<h1>Please wait your page is loading...</h1>
+<div class='d1'></div>
+<div class='d2'></div>
+<div class='d3'></div>
+<div class='d4'></div>
+<div class='d5'></div>
+</center>
+<script>
+function Redirect() {
+window.location = "Dashboard1.html";
+}
+document.write(" ");
+setTimeout('Redirect()', 3000);
+</script>
+</body>
+</html>
